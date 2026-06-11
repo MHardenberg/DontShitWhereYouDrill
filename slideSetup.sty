@@ -1,0 +1,54 @@
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[font=footnotesize]{caption}
+\usepackage{transparent}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{appendixnumberbeamer}
+
+\usepackage{mathptmx}
+\usepackage{setspace}
+\usepackage{calc}% auto udregn
+\usepackage{tikz}
+\usepackage{pgfplots}
+\usetikzlibrary{patterns}
+
+\beamertemplatenavigationsymbolsempty
+\definecolor{msred}{rgb}{.929, .11, .14}
+\usecolortheme[named=msred]{structure}
+
+\setbeamertemplate{footline}{
+    \hspace{1em}\includegraphics[height=0.5cm]{mslogo}
+    \color{msred}\transparent{0.5}
+    \hfill
+    \insertslidenavigationsymbol\hspace{1em}
+    \insertframenumber/\inserttotalframenumber\hspace{1em}
+    \vspace{1em}
+}
+\setbeamertemplate{frametitle}{
+    \vspace{1em}
+    \scshape \insertframetitle
+}
+\captionsetup{labelformat=empty,labelsep=none}
+
+% Ensure text uses Latin Modern Roman
+\renewcommand{\familydefault}{\rmdefault}
+
+% Ensure math uses Latin Modern Roman
+\usefonttheme{professionalfonts}
+
+% user macros
+% -----------------------------------------------------------------------------
+% math
+\renewcommand{\exp}[1]{e^{#1}}
+\newcommand{\unit}[1]{\:\mathrm{#1}}
+\newcommand{\uvec}[1]{\hat{\mathbf{#1}}}
+\newcommand{\mathmono}[1]{\mbox{\texttt{#1}}}
+
+%text
+\newcommand{\mono}[1]{\texttt{#1}}
+\newcommand{\figpos}[1]{(\emph{#1})}
+\newcommand{\foot}[1]{\let\thefootnote\relax\footnotetext{#1}}
+
+% editorial
+\newcommand{\editorial}[1]{[..?? #1]}
