@@ -1,0 +1,5 @@
+# Hashes of file build rules.
+449fadd298d1ff190481787825d7fabd CMakeFiles/slides_pdf
+449fadd298d1ff190481787825d7fabd CMakeFiles/talk_pdf
+fadb6a1200ea6fd5c27cd19d0846e437 slides.pdf
+59c3858cb8bc1e86c177704b8f5dadbc talk.pdf

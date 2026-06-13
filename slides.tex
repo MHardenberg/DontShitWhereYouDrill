@@ -1,6 +1,7 @@
 \documentclass{beamer}
-\usepackage{slideSetup}
-\input{title.tex}
+\usepackage{preamble}
+\usepackage{beamerPreamble}
+\input{inputs/title.tex}
 
 \includeonly{
 }
@@ -48,20 +49,60 @@
 
 \end{frame}
 
-\begin{frame}{Nitrate measurements}
-    \center \includegraphics[width = .8\textwidth]{figures/nitrateMap.png}
-    \captionof*{figure}{Nitrate pollution in Denmark
-    ({\tiny\url{https://www.geus.dk/produkter-ydelser-og-faciliteter/data-og-kort/grundvandskort-og-data}})}
+\begin{frame}
+    \emph{'
+        For over 60 years, the global guideline for nitrates in drinking
+        water has been 50 milligrams per litre (mg/L) [...] set in
+        the 1950s\footnote{Greenpeace:
+    \url{https://www.greenpeace.org/international/story/82511/industrial-agriculture-profits-toxic-nitrates-pollution-tap-water/}}.'}
+
+    \center{
+    This limit is hopelessly out of date}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Increased risk of colorectal cancer}
     \textit{
         “Nitrate in drinking water is a contaminant which can affect
         human health and has been associated with an increased risk
         of, amongst other diseases, colorectal cancer. [...] The
         analysis shows that a lower limit of 9.25 mg/L would decrease
         the annual number of colorectal cancer cases by 72 [...]
-    and by an additional 55 \% [...] for a stricter limit of 3.87 mg/L.”}
+        and by an additional 55 \% [...] for a stricter limit of 3.87
+    mg/L.”}~\cite{jacobsen_health-economic_2024} \editorial{different ref}
+\end{frame}
+
+\begin{frame}{Blue babies (not good)}
+    \begin{multicols}{2}
+        \begin{minipage}{\columnwidth}
+            {
+                \centering
+                \includegraphics[width=.9\textwidth]{figures/rekt}
+            }
+        \end{minipage}
+        \columnbreak
+
+        \textbf{Infant methemoglobinemia}
+        \begin{itemize}
+            \item Nitrate prevents oxygen from binding to their blood.
+                Can progress to cause coma and death if not left
+                untreated~\cite{knobeloch_blue_2000,
+                chen_methemoglobinemia_2026}.
+
+            \item Water used in formula contained nitrate-nitrogen
+                concentrations of 22.9 and 27.4 mg/L~\cite{knobeloch_blue_2000}.
+
+        \end{itemize}
+    \end{multicols}
+\end{frame}
+
+\begin{frame}{Nitrate pollution in Denmark}
+    \center \includegraphics[width = .8\textwidth]{figures/nitrateMap.png}
+    \captionof*{figure}{
+    \tiny\url{https://www.geus.dk/produkter-ydelser-og-faciliteter/data-og-kort/grundvandskort-og-data}}
+\end{frame}
+
+\begin{frame}{Mixing and exploting}
+
 \end{frame}
 
 \begin{frame}
@@ -78,6 +119,16 @@
 
     Also, in blood of people, animals, in food
     products\footnote{\url{https://www.epa.gov/pfas/pfas-explained}}
+
+\end{frame}
+
+\begin{frame}{PFAS measurements in groundwater wells}
+    \centering
+    \center \includegraphics[width = .75\textwidth]{figures/pfasMeas.png}
+
+    \captionof*{figure}{\footnotesize\emph{Red:} PFAS chemicals above limit.
+        \emph{Blue:} Measured PFAS chemicals. \emph{Grey:} None
+    detected~\cite{anders_r_johnsen_laerke_thorling__christian_n_albers_pfas-stoffer_2023}.}
 
 \end{frame}
 
