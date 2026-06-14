@@ -18,7 +18,12 @@
     \insertframenumber/\inserttotalframenumber\hspace{1em}
     \vspace{1em}
 }
+
 \setbeamertemplate{frametitle}{
     \vspace{1em}
     \scshape \insertframetitle
 }
+
+\makeatletter
+\renewcommand{\@cite}[2]{{\tiny\it[{#1\if@tempswa, #2\fi}]}}
+\makeatother
