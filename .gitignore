@@ -1,3 +1,8 @@
+#make
+./build/*
+!./build/.gitkeep
+
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
