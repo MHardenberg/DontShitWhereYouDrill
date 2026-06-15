@@ -20,30 +20,31 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
       - "/bin/"
     searched_directories:
-      - "/home/au617623/pyEnvs/base/bin/uname"
+      - "/home/mitch/pyEnvs/base/bin/uname"
+      - "/home/mitch/.local/bin/uname"
       - "/usr/local/sbin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -75,38 +76,39 @@ events:
       - "make"
       - "smake"
     candidate_directories:
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/home/au617623/pyEnvs/base/bin/gmake"
+      - "/home/mitch/pyEnvs/base/bin/gmake"
+      - "/home/mitch/.local/bin/gmake"
       - "/usr/local/sbin/gmake"
       - "/usr/local/bin/gmake"
       - "/usr/bin/gmake"
       - "/opt/cuda/bin/gmake"
-      - "/usr/lib/jvm/default/bin/gmake"
       - "/usr/bin/site_perl/gmake"
       - "/usr/bin/vendor_perl/gmake"
       - "/usr/bin/core_perl/gmake"
-      - "/home/au617623/pyEnvs/base/bin/make"
+      - "/home/mitch/pyEnvs/base/bin/make"
+      - "/home/mitch/.local/bin/make"
       - "/usr/local/sbin/make"
       - "/usr/local/bin/make"
     found: "/usr/bin/make"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -136,29 +138,30 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
-      - "/home/au617623/pyEnvs/base/bin/cc"
+      - "/home/mitch/pyEnvs/base/bin/cc"
+      - "/home/mitch/.local/bin/cc"
       - "/usr/local/sbin/cc"
       - "/usr/local/bin/cc"
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -189,13 +192,13 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -219,7 +222,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/4.3.3/CompilerIdC/a.out
+        /home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/4.3.3/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -242,24 +245,24 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -284,24 +287,24 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -326,24 +329,24 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -368,24 +371,24 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -410,24 +413,24 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -452,24 +455,24 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -494,24 +497,24 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -536,24 +539,24 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -578,34 +581,34 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/home/au617623/pyEnvs/base/bin/dlltool"
+      - "/home/mitch/pyEnvs/base/bin/dlltool"
+      - "/home/mitch/.local/bin/dlltool"
       - "/usr/local/sbin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/opt/cuda/bin/dlltool"
-      - "/usr/lib/jvm/default/bin/dlltool"
       - "/usr/bin/site_perl/dlltool"
       - "/usr/bin/vendor_perl/dlltool"
       - "/usr/bin/core_perl/dlltool"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -630,24 +633,24 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -672,34 +675,34 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/home/au617623/pyEnvs/base/bin/tapi"
+      - "/home/mitch/pyEnvs/base/bin/tapi"
+      - "/home/mitch/.local/bin/tapi"
       - "/usr/local/sbin/tapi"
       - "/usr/local/bin/tapi"
       - "/opt/cuda/bin/tapi"
-      - "/usr/lib/jvm/default/bin/tapi"
       - "/usr/bin/site_perl/tapi"
       - "/usr/bin/vendor_perl/tapi"
       - "/usr/bin/core_perl/tapi"
     found: false
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -727,52 +730,52 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.1"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar-16.1"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar-16.1"
+      - "/home/mitch/.local/bin/gcc-ar-16.1"
       - "/usr/local/sbin/gcc-ar-16.1"
       - "/usr/local/bin/gcc-ar-16.1"
       - "/opt/cuda/bin/gcc-ar-16.1"
-      - "/usr/lib/jvm/default/bin/gcc-ar-16.1"
       - "/usr/bin/site_perl/gcc-ar-16.1"
       - "/usr/bin/vendor_perl/gcc-ar-16.1"
       - "/usr/bin/core_perl/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar-16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar-16"
+      - "/home/mitch/.local/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/opt/cuda/bin/gcc-ar-16"
-      - "/usr/lib/jvm/default/bin/gcc-ar-16"
       - "/usr/bin/site_perl/gcc-ar-16"
       - "/usr/bin/vendor_perl/gcc-ar-16"
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar16"
+      - "/home/mitch/.local/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/opt/cuda/bin/gcc-ar16"
-      - "/usr/lib/jvm/default/bin/gcc-ar16"
       - "/usr/bin/site_perl/gcc-ar16"
       - "/usr/bin/vendor_perl/gcc-ar16"
       - "/usr/bin/core_perl/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -800,52 +803,52 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.1"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib-16.1"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib-16.1"
+      - "/home/mitch/.local/bin/gcc-ranlib-16.1"
       - "/usr/local/sbin/gcc-ranlib-16.1"
       - "/usr/local/bin/gcc-ranlib-16.1"
       - "/opt/cuda/bin/gcc-ranlib-16.1"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib-16.1"
       - "/usr/bin/site_perl/gcc-ranlib-16.1"
       - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
       - "/usr/bin/core_perl/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib-16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib-16"
+      - "/home/mitch/.local/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/opt/cuda/bin/gcc-ranlib-16"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
       - "/usr/bin/site_perl/gcc-ranlib-16"
       - "/usr/bin/vendor_perl/gcc-ranlib-16"
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib16"
+      - "/home/mitch/.local/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/opt/cuda/bin/gcc-ranlib16"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib16"
       - "/usr/bin/site_perl/gcc-ranlib16"
       - "/usr/bin/vendor_perl/gcc-ranlib16"
       - "/usr/bin/core_perl/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -882,13 +885,13 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -919,13 +922,13 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -949,7 +952,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out
+        /home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -975,52 +978,52 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.1"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar-16.1"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar-16.1"
+      - "/home/mitch/.local/bin/gcc-ar-16.1"
       - "/usr/local/sbin/gcc-ar-16.1"
       - "/usr/local/bin/gcc-ar-16.1"
       - "/opt/cuda/bin/gcc-ar-16.1"
-      - "/usr/lib/jvm/default/bin/gcc-ar-16.1"
       - "/usr/bin/site_perl/gcc-ar-16.1"
       - "/usr/bin/vendor_perl/gcc-ar-16.1"
       - "/usr/bin/core_perl/gcc-ar-16.1"
       - "/usr/bin/gcc-ar-16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar-16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar-16"
+      - "/home/mitch/.local/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/opt/cuda/bin/gcc-ar-16"
-      - "/usr/lib/jvm/default/bin/gcc-ar-16"
       - "/usr/bin/site_perl/gcc-ar-16"
       - "/usr/bin/vendor_perl/gcc-ar-16"
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ar16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ar16"
+      - "/home/mitch/.local/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/opt/cuda/bin/gcc-ar16"
-      - "/usr/lib/jvm/default/bin/gcc-ar16"
       - "/usr/bin/site_perl/gcc-ar16"
       - "/usr/bin/vendor_perl/gcc-ar16"
       - "/usr/bin/core_perl/gcc-ar16"
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1048,52 +1051,52 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/home/au617623/pyEnvs/base/bin/"
+      - "/home/mitch/pyEnvs/base/bin/"
+      - "/home/mitch/.local/bin/"
       - "/usr/local/sbin/"
       - "/usr/local/bin/"
       - "/opt/cuda/bin/"
-      - "/usr/lib/jvm/default/bin/"
       - "/usr/bin/site_perl/"
       - "/usr/bin/vendor_perl/"
       - "/usr/bin/core_perl/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.1"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib-16.1"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib-16.1"
+      - "/home/mitch/.local/bin/gcc-ranlib-16.1"
       - "/usr/local/sbin/gcc-ranlib-16.1"
       - "/usr/local/bin/gcc-ranlib-16.1"
       - "/opt/cuda/bin/gcc-ranlib-16.1"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib-16.1"
       - "/usr/bin/site_perl/gcc-ranlib-16.1"
       - "/usr/bin/vendor_perl/gcc-ranlib-16.1"
       - "/usr/bin/core_perl/gcc-ranlib-16.1"
       - "/usr/bin/gcc-ranlib-16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib-16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib-16"
+      - "/home/mitch/.local/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/opt/cuda/bin/gcc-ranlib-16"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib-16"
       - "/usr/bin/site_perl/gcc-ranlib-16"
       - "/usr/bin/vendor_perl/gcc-ranlib-16"
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/home/au617623/pyEnvs/base/bin/gcc-ranlib16"
+      - "/home/mitch/pyEnvs/base/bin/gcc-ranlib16"
+      - "/home/mitch/.local/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/opt/cuda/bin/gcc-ranlib16"
-      - "/usr/lib/jvm/default/bin/gcc-ranlib16"
       - "/usr/bin/site_perl/gcc-ranlib16"
       - "/usr/bin/vendor_perl/gcc-ranlib16"
       - "/usr/bin/core_perl/gcc-ranlib16"
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/home/au617623/pyEnvs/base/bin"
-        - "/home/au617623/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/pyEnvs/base/bin"
+        - "/home/mitch/.local/bin"
         - "/usr/local/sbin"
         - "/usr/local/bin"
         - "/usr/bin"
         - "/opt/cuda/bin"
-        - "/usr/lib/jvm/default/bin"
         - "/usr/bin/site_perl"
         - "/usr/bin/vendor_perl"
         - "/usr/bin/core_perl"
@@ -1106,8 +1109,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd"
-      binary: "/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd"
+      source: "/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm"
+      binary: "/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -1117,13 +1120,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd'
+        Change Dir: '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42ed1/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_42ed1.dir/build.make CMakeFiles/cmTC_42ed1.dir/build
-        make[1]: Entering directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd'
-        Building C object CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24b82/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_24b82.dir/build.make CMakeFiles/cmTC_24b82.dir/build
+        make[1]: Entering directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm'
+        Building C object CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -1131,8 +1134,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.1 20260430 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_42ed1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc2tbOV4.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_24b82.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccHoBqd3.s
         GNU C23 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.1.1 20260430, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -1146,14 +1149,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: d640c2d0cc84ebd71ee43ed7e2df63fb
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/'
-         as -v --64 -o CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o /tmp/cc2tbOV4.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/'
+         as -v --64 -o CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o /tmp/ccHoBqd3.s
         GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_42ed1
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42ed1.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_24b82
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24b82.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper
@@ -1164,14 +1167,14 @@ events:
         gcc version 16.1.1 20260430 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42ed1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42ed1.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRuYlY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42ed1 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24b82' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24b82.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXolYMG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_24b82 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
         collect2 version 16.1.1 20260430
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRuYlY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42ed1 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXolYMG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_24b82 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46.0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42ed1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42ed1.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -o cmTC_42ed1
-        make[1]: Leaving directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24b82' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24b82.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -o cmTC_24b82
+        make[1]: Leaving directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm'
         
       exitCode: 0
   -
@@ -1204,13 +1207,13 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd']
+        ignore line: [Change Dir: '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_42ed1/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_42ed1.dir/build.make CMakeFiles/cmTC_42ed1.dir/build]
-        ignore line: [make[1]: Entering directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-V5ggbd']
-        ignore line: [Building C object CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_24b82/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_24b82.dir/build.make CMakeFiles/cmTC_24b82.dir/build]
+        ignore line: [make[1]: Entering directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-7vORVm']
+        ignore line: [Building C object CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1218,8 +1221,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.1 20260430 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_42ed1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/cc2tbOV4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_24b82.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccHoBqd3.s]
         ignore line: [GNU C23 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.1.1 20260430  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1233,14 +1236,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d640c2d0cc84ebd71ee43ed7e2df63fb]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o /tmp/cc2tbOV4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o /tmp/ccHoBqd3.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_42ed1]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42ed1.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_24b82]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24b82.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper]
@@ -1251,13 +1254,13 @@ events:
         ignore line: [gcc version 16.1.1 20260430 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_42ed1' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_42ed1.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRuYlY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42ed1 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_24b82' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_24b82.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXolYMG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_24b82 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cctRuYlY.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccXolYMG.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1273,7 +1276,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_42ed1] ==> ignore
+          arg [cmTC_24b82] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o]
@@ -1285,7 +1288,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
           arg [-latomic_asneeded] ==> lib [atomic_asneeded]
@@ -1295,7 +1298,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.1.1 20260430]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cctRuYlY.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_42ed1 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_42ed1.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccXolYMG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_24b82 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_24b82.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -1332,8 +1335,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7"
-      binary: "/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7"
+      source: "/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM"
+      binary: "/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1344,13 +1347,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7'
+        Change Dir: '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c04e5/fast
-        /usr/bin/make  -f CMakeFiles/cmTC_c04e5.dir/build.make CMakeFiles/cmTC_c04e5.dir/build
-        make[1]: Entering directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7'
-        Building CXX object CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7df9/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d7df9.dir/build.make CMakeFiles/cmTC_d7df9.dir/build
+        make[1]: Entering directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM'
+        Building CXX object CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -1358,8 +1361,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.1.1 20260430 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c04e5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccGh7yXc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7df9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxDOKDW.s
         GNU C++20 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.1.1 20260430, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.27-GMP
         
@@ -1376,14 +1379,14 @@ events:
          /usr/include
         End of search list.
         Compiler executable checksum: d47d0c990a24bc0dbaf3bd00656bd5f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/'
-         as -v --64 -o CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGh7yXc.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxDOKDW.s
         GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_c04e5
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c04e5.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d7df9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7df9.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper
@@ -1394,14 +1397,14 @@ events:
         gcc version 16.1.1 20260430 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04e5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c04e5.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUmZxJw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c04e5 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7df9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7df9.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2PClW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7df9 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
         collect2 version 16.1.1 20260430
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUmZxJw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c04e5 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2PClW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7df9 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.46.0
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04e5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c04e5.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_c04e5
-        make[1]: Leaving directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7df9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7df9.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7df9
+        make[1]: Leaving directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM'
         
       exitCode: 0
   -
@@ -1440,13 +1443,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7']
+        ignore line: [Change Dir: '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_c04e5/fast]
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_c04e5.dir/build.make CMakeFiles/cmTC_c04e5.dir/build]
-        ignore line: [make[1]: Entering directory '/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-abLxl7']
-        ignore line: [Building CXX object CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7df9/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d7df9.dir/build.make CMakeFiles/cmTC_d7df9.dir/build]
+        ignore line: [make[1]: Entering directory '/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/CMakeScratch/TryCompile-A7c9nM']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -1454,8 +1457,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.1.1 20260430 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_c04e5.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccGh7yXc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7df9.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccxDOKDW.s]
         ignore line: [GNU C++20 (GCC) version 16.1.1 20260430 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.1.1 20260430  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -1472,14 +1475,14 @@ events:
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: d47d0c990a24bc0dbaf3bd00656bd5f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccGh7yXc.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccxDOKDW.s]
         ignore line: [GNU assembler version 2.46.0 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.46.0]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_c04e5]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c04e5.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d7df9]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7df9.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper]
@@ -1490,13 +1493,13 @@ events:
         ignore line: [gcc version 16.1.1 20260430 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c04e5' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_c04e5.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUmZxJw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c04e5 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7df9' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7df9.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2PClW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7df9 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccUmZxJw.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccJ2PClW.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -1512,7 +1515,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_c04e5] ==> ignore
+          arg [cmTC_d7df9] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o]
@@ -1524,7 +1527,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -1536,7 +1539,7 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.1.1 20260430]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUmZxJw.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_c04e5 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_c04e5.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJ2PClW.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7df9 /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7df9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/../../../../lib/crti.o] ==> [/usr/lib/crti.o]

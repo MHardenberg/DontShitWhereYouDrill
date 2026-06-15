@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.15)
 project(dontShitWhereYoudDrill)
 
-file(GLOB TEX_FILES "*.tex")
+set(TEX_FILES slides.tex talk.tex)
 set(LATEX_COMPILER pdflatex)
+file(GLOB INPUT_FILES "inputs/*.tex")
 
 foreach(tex_file ${TEX_FILES})
     get_filename_component(name ${tex_file} NAME_WE)
@@ -34,7 +35,7 @@ foreach(tex_file ${TEX_FILES})
                 -output-directory "${CMAKE_CURRENT_BINARY_DIR}"
                 "${name}.tex"
 
-        DEPENDS "${tex_file}"
+         DEPENDS "${tex_file}" ${INPUT_FILES}
     )
     add_custom_target(${name}_pdf ALL DEPENDS "${pdf_file}")
 endforeach()
