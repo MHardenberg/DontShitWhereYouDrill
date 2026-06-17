@@ -13,6 +13,9 @@
 % Ensure text uses Latin Modern Roman
 \renewcommand{\familydefault}{\rmdefault}
 
+\renewcommand{\thefootnote}{\alph{footnote}}
+\AtBeginEnvironment{frame}{\setcounter{footnote}{0}}
+
 % user macros
 % -----------------------------------------------------------------------------
 % math
