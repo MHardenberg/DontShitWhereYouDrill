@@ -73,7 +73,6 @@ slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/climate.te
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
-slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/south.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/title.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/todo.tex

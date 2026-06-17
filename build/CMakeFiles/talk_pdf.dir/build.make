@@ -73,7 +73,6 @@ talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/climate.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
-talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/south.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/title.tex
 talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/todo.tex
