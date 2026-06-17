@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mitch/gitplayground/DontShitWhereYouDrill
+CMAKE_SOURCE_DIR = /home/au617623/gitplayground/DontShitWhereYouDrill
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mitch/gitplayground/DontShitWhereYouDrill/build
+CMAKE_BINARY_DIR = /home/au617623/gitplayground/DontShitWhereYouDrill/build
 
 # Utility rule file for slides_pdf.
 
@@ -68,18 +68,19 @@ include CMakeFiles/slides_pdf.dir/progress.make
 
 CMakeFiles/slides_pdf: slides.pdf
 
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/slides.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/south.tex
-slides.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/title.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating slides.pdf"
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build slides.tex
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/mitch/gitplayground/DontShitWhereYouDrill/build: bibtex /home/mitch/gitplayground/DontShitWhereYouDrill/build/slides || true
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build slides.tex
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build slides.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/slides.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/climate.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/south.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/title.tex
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating slides.pdf"
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build slides.tex
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/au617623/gitplayground/DontShitWhereYouDrill/build: bibtex /home/au617623/gitplayground/DontShitWhereYouDrill/build/slides || true
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build slides.tex
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build slides.tex
 
 CMakeFiles/slides_pdf.dir/codegen:
 .PHONY : CMakeFiles/slides_pdf.dir/codegen
@@ -98,6 +99,6 @@ CMakeFiles/slides_pdf.dir/clean:
 .PHONY : CMakeFiles/slides_pdf.dir/clean
 
 CMakeFiles/slides_pdf.dir/depend:
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mitch/gitplayground/DontShitWhereYouDrill /home/mitch/gitplayground/DontShitWhereYouDrill /home/mitch/gitplayground/DontShitWhereYouDrill/build /home/mitch/gitplayground/DontShitWhereYouDrill/build /home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/slides_pdf.dir/DependInfo.cmake "--color=$(COLOR)" slides_pdf
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/au617623/gitplayground/DontShitWhereYouDrill /home/au617623/gitplayground/DontShitWhereYouDrill /home/au617623/gitplayground/DontShitWhereYouDrill/build /home/au617623/gitplayground/DontShitWhereYouDrill/build /home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/slides_pdf.dir/DependInfo.cmake "--color=$(COLOR)" slides_pdf
 .PHONY : CMakeFiles/slides_pdf.dir/depend
 

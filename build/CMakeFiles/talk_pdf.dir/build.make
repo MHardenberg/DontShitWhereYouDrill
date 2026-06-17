@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mitch/gitplayground/DontShitWhereYouDrill
+CMAKE_SOURCE_DIR = /home/au617623/gitplayground/DontShitWhereYouDrill
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/mitch/gitplayground/DontShitWhereYouDrill/build
+CMAKE_BINARY_DIR = /home/au617623/gitplayground/DontShitWhereYouDrill/build
 
 # Utility rule file for talk_pdf.
 
@@ -68,18 +68,19 @@ include CMakeFiles/talk_pdf.dir/progress.make
 
 CMakeFiles/talk_pdf: talk.pdf
 
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/talk.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/south.tex
-talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/title.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating talk.pdf"
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build talk.tex
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/mitch/gitplayground/DontShitWhereYouDrill/build: bibtex /home/mitch/gitplayground/DontShitWhereYouDrill/build/talk || true
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build talk.tex
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build talk.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/talk.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/climate.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/dk.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/no3.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/south.tex
+talk.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/title.tex
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating talk.pdf"
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build talk.tex
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/au617623/gitplayground/DontShitWhereYouDrill/build: bibtex /home/au617623/gitplayground/DontShitWhereYouDrill/build/talk || true
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build talk.tex
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -halt-on-error -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build talk.tex
 
 CMakeFiles/talk_pdf.dir/codegen:
 .PHONY : CMakeFiles/talk_pdf.dir/codegen
@@ -98,6 +99,6 @@ CMakeFiles/talk_pdf.dir/clean:
 .PHONY : CMakeFiles/talk_pdf.dir/clean
 
 CMakeFiles/talk_pdf.dir/depend:
-	cd /home/mitch/gitplayground/DontShitWhereYouDrill/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mitch/gitplayground/DontShitWhereYouDrill /home/mitch/gitplayground/DontShitWhereYouDrill /home/mitch/gitplayground/DontShitWhereYouDrill/build /home/mitch/gitplayground/DontShitWhereYouDrill/build /home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/talk_pdf.dir/DependInfo.cmake "--color=$(COLOR)" talk_pdf
+	cd /home/au617623/gitplayground/DontShitWhereYouDrill/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/au617623/gitplayground/DontShitWhereYouDrill /home/au617623/gitplayground/DontShitWhereYouDrill /home/au617623/gitplayground/DontShitWhereYouDrill/build /home/au617623/gitplayground/DontShitWhereYouDrill/build /home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles/talk_pdf.dir/DependInfo.cmake "--color=$(COLOR)" talk_pdf
 .PHONY : CMakeFiles/talk_pdf.dir/depend
 
