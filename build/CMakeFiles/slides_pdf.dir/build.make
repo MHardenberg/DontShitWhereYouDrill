@@ -76,6 +76,7 @@ slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/south.tex
 slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/title.tex
+slides.pdf: /home/au617623/gitplayground/DontShitWhereYouDrill/inputs/todo.tex
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/au617623/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating slides.pdf"
 	cd /home/au617623/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/au617623/gitplayground/DontShitWhereYouDrill/build slides.tex
 	cd /home/au617623/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/au617623/gitplayground/DontShitWhereYouDrill/build: bibtex /home/au617623/gitplayground/DontShitWhereYouDrill/build/slides || true
