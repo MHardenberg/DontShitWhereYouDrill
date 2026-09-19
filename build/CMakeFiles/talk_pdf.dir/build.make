@@ -76,6 +76,7 @@ talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/pfas.tex
 talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/promises.tex
 talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/south.tex
 talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/title.tex
+talk.pdf: /home/mitch/gitplayground/DontShitWhereYouDrill/inputs/todo.tex
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/mitch/gitplayground/DontShitWhereYouDrill/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating talk.pdf"
 	cd /home/mitch/gitplayground/DontShitWhereYouDrill && pdflatex -interaction=nonstopmode -output-directory /home/mitch/gitplayground/DontShitWhereYouDrill/build talk.tex
 	cd /home/mitch/gitplayground/DontShitWhereYouDrill && /usr/bin/cmake -E env openout_any=a TEXMFOUTPUT=/home/mitch/gitplayground/DontShitWhereYouDrill/build: bibtex /home/mitch/gitplayground/DontShitWhereYouDrill/build/talk || true
